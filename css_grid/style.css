@@ -1,0 +1,40 @@
+
+
+.wrapper > div {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.div1 {
+    background-color: lightseagreen;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.div2 {
+    background-color: yellow;
+}
+.div3 {
+    background-color: lightskyblue;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.div4 {
+    background-color: lightpink;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.div5 {
+    background-color: lightgreen;
+}
+.div6 {
+    background-color: lightcoral;
+}
+
+
